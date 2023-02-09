@@ -24,7 +24,7 @@ const Navbar = () => {
         <div className='w-full text-3xl font-bold text-[#966C3B]'>
           <img src={Logo} alt='/' style={{width:"8rem"}} />
         </div>
-        <ul className='flex hidden'>
+        <ul className='flex'>
           <li className='p-4'>Departments</li>
 
           <li className='p-4'>Help</li>

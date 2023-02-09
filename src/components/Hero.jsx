@@ -10,7 +10,7 @@ function Hero() {
             <h1 className='text-4xl  font-medium col-span-1 mb-[20px]'> and delivery today</h1>
             <div className='flex'>
               <p>We'll be right at your door, for your</p>
-              <Typed className='pl-2' strings={['laundry.', 'linen.', 'carpets.']} typeSpeed={120} backSpeed={130} loop/>
+              <Typed className='pl-1' strings={['laundry.', 'linen.', 'carpets.']} typeSpeed={120} backSpeed={130} loop/>
             </div>
         </div>
     </div>
