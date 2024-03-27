@@ -5,8 +5,13 @@ import Navbar from './components/Navbar';
 function App() {
   return (
     <div>
-      <Navbar />
-      <Hero />
+      <section
+      className="h-screen bg-Hero bg-cover
+      font-[Poppins] md:bg-top bg-center"
+      >
+        <Navbar />
+        <Hero />
+      </section>
     </div>
   );
 }
