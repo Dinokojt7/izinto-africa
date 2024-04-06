@@ -6,7 +6,15 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: {
-        Hero: "url('assets/Hero.jpeg')",
+        Hero: "url('assets/Hero.jpg')",
+      },
+      backgroundSize: {
+        'auto': 'auto',
+        'cover': 'cover',
+        'contain': 'contain',
+        // Add custom background sizes as needed
+        '50%': '50%',
+        '100%': '100%',
       },
     },
   },
