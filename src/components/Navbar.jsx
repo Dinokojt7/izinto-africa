@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { IoCloseSharp } from "react-icons/io5";
 import { HiMenuAlt2 } from 'react-icons/hi';
-import Logo from '../assets/Artwork.png';
+import Logo from '../assets/artwork.png';
 import { HiChevronDown } from "react-icons/hi";
 
 
