@@ -34,10 +34,10 @@ const Navbar = () => {
   }, []);
 
   return (
-    <div className={`navbar ${scrolled ? 'scrolled' : ''}`}>
+    <div className={`mb-30 navbar ${scrolled ? 'scrolled' : ''}`}>
       <div className='flex justify-between items-center my-auto py-2 max-w-[1240] mx-auto px-4 font-semibold text-[#242424]'>
         <div className='flex items-center w-full'>
-          <div className='ml-8 mt-1 mr-2' onClick={handleNav}>
+          <div className=' mr-2' onClick={handleNav}>
             <HiMenuAlt2 size={32} />
           </div>
           <div className='w-full text-3xl font-bold text-[#966C3B]'>

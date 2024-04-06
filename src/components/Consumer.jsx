@@ -9,7 +9,7 @@ import Food from '../assets/Food.png';
 function Consumer() {
   return (
     <div>
-        <div className="text-4xl pb-16 font-bold text-gray-800">Laundry</div>
+        <div className="text-4xl pb-12 md:pb-16 font-bold text-gray-800">Laundry</div>
         <div className='w-full pb-12 text-3xl border-b-2 border-gray-200 font-bold flex'>
             <div className='pr-7 pt-1'>
                 <img src={ContentImage} alt='/' style={{ width: "3rem" }} />

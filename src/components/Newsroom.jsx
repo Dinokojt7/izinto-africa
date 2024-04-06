@@ -27,8 +27,8 @@ function Newsroom() {
 
 
   return (
-    <div className='pb-36 font-bold border-t-2 border-gray-200 relative'>
-        <div className="text-4xl pt-16 pb-10 text-gray-800 pl-32 pr-32">Instagram</div>
+    <div className='pb-16 font-bold border-gray-200'>
+        <div className="text-4xl pt-16 pb-10 text-gray-800 pl-8 md:pl-32 pr-32">Instagram</div>
         {/* <div className="grid grid-cols-3 gap-4"> */}
         {/* Render Instagram media */}
         {/* {media.map((item) => ( */}
@@ -48,12 +48,12 @@ function Newsroom() {
         {/* ) */}
         {/* } */}
         {/* </div> */}
-        <div className='pl-32 pr-32'>
-            <div className="grid grid-cols-4 gap-2">
-                <div className='w-40 h-48 py-auto bg-[rgb(232, 232, 232,0.8)] my-auto'><img src={Izinto} alt="Image 1" className="mx-auto  my-auto w-40 " /></div>
-                <div className='w-40 h-48 bg-[#797268] py-auto my-auto'><img src={Fresh} alt="Image 1" className="mx-auto  my-auto w-40 " /></div>
-                <div className='w-40 h-48 bg-[#797268] py-auto my-auto'><img src={Sneaker} alt="Image 1" className="  my-auto w-64 " /></div>
-                <div className='w-40 h-48 bg-[#797268] py-auto my-auto'><img src={EasyWash} alt="Image 1" className="mx-auto  my-auto w-40 " /></div>
+        <div className='pl-8 md:pl-32 md:pr-16 overflow-x-auto'>
+            <div className="grid grid-cols-4 gap-56 md:gap-2">
+                <div className='w-40 h-46 py-auto bg-[rgb(232, 232, 232,0.8)] my-auto'><img src={Izinto} alt="Image 1" className="mx-auto  w-40 " /></div>
+                <div className='w-40 h-46 bg-[#797268] py-auto my-auto'><img src={Fresh} alt="Image 1" className="mx-auto w-40 " /></div>
+                <div className='w-40 h-46 bg-[#797268] py-auto my-auto'><img src={Sneaker} alt="Image 1" className="   w-64 " /></div>
+                <div className='w-40 h-46 bg-[#797268] py-auto my-auto'><img src={EasyWash} alt="Image 1" className="mx-auto   w-40 " /></div>
             </div>
         </div>
     </div>

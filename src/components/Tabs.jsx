@@ -12,11 +12,11 @@ const Tabs = () => {
   };
 
   return (
-    <div className=" col-span-3 justify-center mx-auto pl-32 pr-32 font-bold text-gray-500">
+    <div className=" justify-left mx-auto ml-8 md:pl-32  md:pr-32 font-bold text-gray-500">
       {/* Tab Bar */}
-      <div className="flex pb-16 border-b-2 border-gray-200">
+      <div className="flex pb-10 md:pb-16 border-b-2 border-gray-200 overflow-x-auto">
         <button
-          className={`px-7 py-3 focus:outline-none ${
+          className={`px-5 py-2 md:px-7 md:py-3 focus:outline-none ${
             activeTab === 1 ? 'bg-[#121212] text-white rounded-full' : ''
           }`}
           onClick={() => handleTabClick(1)}
@@ -24,7 +24,7 @@ const Tabs = () => {
           Consumer
         </button>
         <button
-          className={`px-7 py-3  focus:outline-none ${
+          className={`px-5 py-2 md:px-7 md:py-3 focus:outline-none ${
             activeTab === 2 ? 'bg-[#121212] text-white rounded-full' : ''
           }`}
           onClick={() => handleTabClick(2)}
@@ -32,7 +32,7 @@ const Tabs = () => {
           Shopper
         </button>
         <button
-          className={`px-7 py-3  focus:outline-none ${
+          className={`px-5 py-2 md:px-7 md:py-3 focus:outline-none ${
             activeTab === 3 ?'bg-[#121212] text-white rounded-full' : ''
           }`}
           onClick={() => handleTabClick(3)}
@@ -40,7 +40,7 @@ const Tabs = () => {
           Merchant
         </button>
         <button
-          className={`px-7 py-3  focus:outline-none ${
+          className={`px-5 py-2 md:px-7 md:py-3 focus:outline-none ${
             activeTab === 4 ?'bg-[#121212] text-white rounded-full' : ''
           }`}
           onClick={() => handleTabClick(4)}
