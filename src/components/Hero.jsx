@@ -3,10 +3,10 @@ import React from 'react'
 function Hero() {
   return (
     // bg-[#f1e4cf]
-    <div className='text-[#242421] cover pb-20 height: 100% bg-Hero '>
-        <div className='h-screen cover'></div>
-        
-    </div>
+    <div className='text-[#242421] bg-contain md:bg-cover bg-no-repeat bg-Hero'>
+       <div className='h-64 md:h-screen'></div>
+    {/* Content */}
+  </div>
   )
 }
 

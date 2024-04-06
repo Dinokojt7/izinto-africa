@@ -43,7 +43,7 @@ const Navbar = () => {
           <div className='w-full text-3xl font-bold text-[#966C3B]'>
             <img src={Logo} alt='/' style={{ width: "8rem" }} />
           </div>
-          <ul className='flex text-[#48443E] text-lg whitespace-nowrap items-right justify-end'>
+          <ul className='md:flex hidden md:block text-[#48443E] text-lg whitespace-nowrap items-right justify-end'>
             <li className='p-4 flex'>
             <div>Be Our Partner</div>
               <div className='mt-1' onClick={handleNav}>
