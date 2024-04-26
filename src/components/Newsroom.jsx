@@ -28,7 +28,7 @@ function Newsroom() {
 
   return (
     <div className='pb-16 font-bold border-gray-200'>
-        <div className="text-4xl pt-16 pb-10 text-gray-800 pl-8 md:pl-32 pr-32">Instagram</div>
+        <div className="text-4xl pt-16 pb-10 text-[#121212] pl-8 md:pl-32 pr-32">Instagram</div>
         {/* <div className="grid grid-cols-3 gap-4"> */}
         {/* Render Instagram media */}
         {/* {media.map((item) => ( */}
