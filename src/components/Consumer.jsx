@@ -15,8 +15,8 @@ function Consumer() {
                 <img src={ContentImage} alt='/' className='w-14 md:w-15 sm:w-14'/>
             </div>
             <div className=''>
-                <div className='font-bold pb-2 text-xl text-gray-700'>Essentials</div>
-                <div className=' text-gray-800 font-light text-sm'>Wash your regular essential clothes from a click of a button.</div>
+                <div className='font-bold pb-2 text-xl text-[#121212d8]'>Essentials</div>
+                <div className='font-light text-xs font-sans text-[#121212]'>Wash your regular essential clothes from a click of a button.</div>
             </div>
           </div>
           <div className='w-full pb-12 pt-8 text-3xl border-b-2 border-gray-200 font-bold flex'>
