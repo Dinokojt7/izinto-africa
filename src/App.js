@@ -1,29 +1,23 @@
 import React from 'react';
-import GetApp from './components/Download';
-import About from './components/About';
-import Hero from './components/Hero';
-import Intro from './components/Intro';
+import { BrowserRouter as Router, Route, Switch} from 'react-router-dom';
 import Navbar from './components/Navbar';
-import Platform from './components/Platform';
-import Tabs from './components/Tabs';
-import Newsroom from './components/Newsroom';
-import Footers from './components/Footers';
-import Credits from './components/Credits';
+import Home from './components/Home';
+import Terms from './components/Terms'; 
+
 
 function App() {
   return (
-    <div>
+    <Router>
       <Navbar />
-      <Hero />
-      <Intro />
-      <About />
-      <GetApp />
-      <Platform />
-      <Tabs />
-      <Newsroom />
-      <Footers />
-      <Credits />
-    </div>
+      <Switch> 
+        <Route path="/">
+          <Home />
+        </Route> 
+        <Route path="/terms">
+          <Terms />
+        </Route>
+      </Switch>
+    </Router>
   );
 }
 

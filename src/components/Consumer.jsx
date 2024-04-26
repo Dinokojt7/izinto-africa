@@ -9,10 +9,10 @@ import Food from '../assets/Food.png';
 function Consumer() {
   return (
     <div>
-        <div className="text-4xl pb-12 md:pb-16 font-bold text-gray-800">Laundry</div>
+        <div className="text-4xl pb-12 md:pb-16 font-bold text-[#121212]">Laundry</div>
         <div className='w-full pb-12 text-3xl border-b-2 border-gray-200 font-bold flex'>
             <div className='pr-7 pt-1'>
-                <img src={ContentImage} alt='/' style={{ width: "3rem" }} />
+                <img src={ContentImage} alt='/' className='w-14 md:w-15 sm:w-14'/>
             </div>
             <div className=''>
                 <div className='font-bold pb-2 text-xl text-gray-700'>Essentials</div>
@@ -21,7 +21,7 @@ function Consumer() {
           </div>
           <div className='w-full pb-12 pt-8 text-3xl border-b-2 border-gray-200 font-bold flex'>
             <div className='pr-7 pt-1'>
-                <img src={Sneakers} alt='/' style={{ width: "3rem" }} />
+                <img src={Sneakers} alt='/' className='w-14 md:w-15'/>
             </div>
             <div className=''>
                 <div className='font-bold pb-2 text-xl text-gray-700'>Wash Sneakers</div>
